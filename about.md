@@ -1,7 +1,3 @@
-layout: page
-title: "About djhenderson.github.io"
-permalink: /about/
-
 # About djhenderson.github.io
 
 The content of this page is pretty obvious.
