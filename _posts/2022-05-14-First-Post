@@ -1,7 +1,9 @@
+---
 layout: post
 title: "First Post"
 date: 2022-05-14 17:26:00 -0600
 categories: Meta
+---
 
 This is my first post, as I learn about github-pages and Jekyll.
 
