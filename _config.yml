@@ -7,8 +7,8 @@ markdown: GFM
 highlighter: rouge
 
 defaults:
-	-
-		scope:
-			path: ""
-		values:
-			author: "Doug"
+  -
+    scope:
+      path: ""
+    values:
+      author: "Doug"
