@@ -3,26 +3,37 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<style>
+		thead {color: green;}
+		tbody {color: blue;}
+		table, th, td {
+		  border: 1px solid black;
+		}
+		</style>
 	</head>
 	<body>
 		<h1>My Genealogic Databases</h1>
 
 		<p>Here are some of my more important genealogic database statistics.</p>
 		<table>
-			<th>
-				<td>Software</td>
-				<td>Database</td>
-				<td>Individuals</td>
-				<td>Marriages</td>
-			</th>
-			{% for member in site.data.gen_stats %}
+			<thead>
 				<tr>
-					<td>{{ member.Software }}</td>
-					<td>{{ member.Database }}</td>
-					<td>{{ member.Individuals }}</td>
-					<td>{{ member.Marriages }}</td>
+					<th>Software</th>
+					<th>Database</th>
+					<th>Individuals</th>
+					<th>Marriages</th>
 				</tr>
-			{% endfor %}
+			</thead>
+			<tbody>
+				{% for member in site.data.gen_stats %}
+					<tr>
+						<td>{{ member.Software }}</td>
+						<td>{{ member.Database }}</td>
+						<td>{{ member.Individuals }}</td>
+						<td>{{ member.Marriages }}</td>
+					</tr>
+				{% endfor %}
+			</tbody>
 		</table>
 
 	</body>
