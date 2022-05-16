@@ -5,3 +5,10 @@ description: A place to showcase my projects.
 url: "https://djhenderson.github.io"
 markdown: GFM
 highlighter: rouge
+
+defaults:
+	-
+		scope:
+			path: ""
+		values:
+			author: "Doug"
